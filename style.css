@@ -1,0 +1,152 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #A0A0A0;
+    font-size: 32px;
+    margin-left: 35px;
+    transition: 0.3s;
+    border-right-width: 1px;
+    border-right-color: #A0A0A0;
+    border-right-style: solid;
+    padding: 0 35px 0 0;
+}
+
+.navbar a:hover {
+    color: #8f8f8f;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+.middle-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.middle-header {
+    font-size: 24px;
+    font-weight: 550;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+.middle-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle-content {
+    position: relative;
+}
+
+.car-text h3, .car-text p, .footer-car-text h3, .footer-car-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.car-box {
+    background-color: #ECECEC;
+    border-radius: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.car-box:hover {
+    background-color: #d6d6d6;
+
+}
+
+.car-text h3 {
+    margin-bottom: 10px;
+}
+
+.car-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ECECEC;
+    padding: 30px 0;
+}
+
+.footer-cars {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.footer-car-text h3, .footer-car-box img  {
+    margin-bottom: 10px;
+}
+
+.footer-car-text p {
+    margin-bottom: 5px;
+}
+
+.contact-us {
+    border-left-width: 2px;
+    border-left-color: #A0A0A0;
+    border-left-style: solid;
+    padding: 0 0 0 35px;
+}
+
+.social-medias .social-media {
+    width: 40px;
+    height: 40px;
+    background-color: #727272;
+    border-radius: 100px;
+}
+
+.social-medias {
+    display: flex;
+    gap: 20px;
+}
